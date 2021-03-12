@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="font/Rimouski.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title-wrapper">
+      <h2 class="title">Welcome to Jane Weather App</h2>
+    </div>
+
+    <div class="widget-wrapper">
+      <div class="app-title">
+        <p>Weather</p>
+      </div>
+      <div class="notification"></div>
+      <div class="weather-container">
+        <div class="weather-icon">
+          <img src="icons/unknown.png" alt="" />
+        </div>
+        <div class="wind-wrapper">
+          <div class="wind-speed">
+            <img src="icons/wind.png" alt="" />
+            <div class="wind-speed-text"></div>
+          </div>
+          <div class="wind-direction">
+            <div class="wind-direction-text"></div>
+          </div>
+        </div>
+        <div class="temperature-value">
+          <p>- °<span>C</span></p>
+        </div>
+        <div class="temperature-description">
+          <p>-</p>
+        </div>
+        <div class="location">
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="days" class="days-wrapper"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

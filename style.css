@@ -1,0 +1,172 @@
+body {
+  background-color: #e3fdfd;
+  font-family: "Rimouski";
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.1rem;
+  color: #11999e;
+  margin: auto;
+}
+
+.title-wrapper {
+  display: flex;
+  width: 100%;
+  margin: 50px 0;
+}
+.widget-wrapper {
+  width: 300px;
+  background-color: #fff;
+
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+.app-title {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+
+.app-title p {
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  color: #293251;
+}
+
+.notification {
+  background-color: #f8d7da;
+  display: none;
+}
+
+.notification p {
+  color: #721c24;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.weather-container {
+  width: 300px;
+  height: px;
+  background-color: #f4f9ff;
+}
+
+.weather-icon {
+  width: 300px;
+  height: 128px;
+}
+
+.weather-icon img {
+  display: block;
+  margin: 0 auto;
+}
+
+.wind-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wind-speed {
+  margin: auto;
+  display: flex;
+}
+.wind-speed-text {
+  margin-left: 15px;
+  font-size: 19px;
+}
+
+.wind-direction {
+  margin: 18px auto;
+  display: flex;
+}
+.wind-direction-text {
+  font-size: 19px;
+}
+
+.temperature-value {
+  width: 300px;
+  height: 60px;
+}
+
+.temperature-value p {
+  padding: 0;
+  margin: 0;
+  color: #293251;
+  font-size: 4em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.temperature-value p:hover {
+}
+
+.temperature-value span {
+  color: #293251;
+  font-size: 0.5em;
+}
+
+.temperature-description {
+}
+
+.temperature-description p {
+  padding: 8px;
+  margin: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.location {
+}
+
+.location p {
+  margin: 0;
+  padding: 0;
+  color: #293251;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.days-wrapper {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+
+.div-wrapper {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  background-color: white;
+}
+.div-wrapper:hover {
+  cursor: pointer;
+}
+.elem-wrapper {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.city-style {
+  font-weight: 200;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.day-style {
+}
+.temp-style {
+}
+.icon-style {
+}
